@@ -566,7 +566,8 @@ controller.moveSprite(knight, 100, 0)
 knight.setPosition(10, 108)
 lifeOfknight = statusbars.create(20, 4, StatusBarKind.Health)
 lifeOfknight.setColor(5, 2)
-lifeOfknight.setPosition(13, 15)
+lifeOfknight.setLabel("HP")
+lifeOfknight.setPosition(19, 15)
 canfire = true
 let bossatk = sprites.create(img`
     . . . . . . . . . . . . . . . . 
